@@ -16,3 +16,5 @@ pre-installed, it should be statically compiled such that the binary
 can be reliably copied around.  Golang excels at that, so this dresses
 up the build in server with some command line arguments, then gets out
 of the way.
+
+To build, simply do: `go build gthttpd.go`
